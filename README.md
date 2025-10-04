@@ -1,4 +1,5 @@
 # 🎯 Career Compass – Frontend
+**IF YOU ARE NEW TO THE PLATFORM THEN DIRECTLY LOGIN VIA GOOGLE YOU'LL GET IT THROUGH ALL THE PROCESS OF SIGNUP**
 
 A React + Vite powered career guidance platform built for students to explore personalized career paths, build ATS-friendly resumes, practice AI-powered interviews, and discover opportunities with ease.
 
