@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } f
 import { ref, set } from "firebase/database";
 import { useNavigate } from "react-router-dom";
 
-const Signup = () => {
+const SignUp = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -59,4 +59,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUp;
