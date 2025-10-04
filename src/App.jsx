@@ -2,10 +2,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Signup from "./pages/Signup";
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import CompleteProfile from "./pages/CompleteProfile";
+import Signup from "./components/SignUp"
+import Login from "./components/Login";
+import Dashboard from "./components/Dashboard";
+import CompleteProfile from "./components/CompleteProfile";
 import CareerSuggestions from "./components/CareerSuggestions";
 import SkillQuiz from "./components/SkillQuiz"
 import GitHubExplorer from "./components/GitHubExplorer";
