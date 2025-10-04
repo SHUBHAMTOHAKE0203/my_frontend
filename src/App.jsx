@@ -2,7 +2,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Signup from "./components/SignUp"
+import SignUp from "./components/SignUp";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import CompleteProfile from "./components/CompleteProfile";
@@ -33,7 +33,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<AICareerLanding/>} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/services" element={<Services/>}/>
         <Route path="/dashboard" element={<Dashboard />} />
